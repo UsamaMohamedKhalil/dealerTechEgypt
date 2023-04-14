@@ -169,7 +169,7 @@ const NavBar = () => {
                setMode(mode === 'light' ? 'dark' : 'light')
             )
          }  
-         className={`ml-3 flex items-center justify-center rounded-full p-1
+         className={`ml-3 flex items-center justify-center rounded-full p-1 md:w-6 sm:w-5
          ${mode === 'light' ? 'bg-dark text-light' : 'bg-light text-dark' }`}
          >
             {

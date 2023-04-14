@@ -154,7 +154,7 @@ const NavBar = () => {
          </motion.a>
          <motion.a href='https://www.instagram.com/dealertechegypt/' target={"_blank"} className='w-6 mx-3 sm:mx-1'
          whileHover={{y:-2}}
-         target={'_blank'}
+         
          whileTap={{scale:0.9}}>
             <InstagramIcon />
          </motion.a>

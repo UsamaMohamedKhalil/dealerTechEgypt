@@ -1,7 +1,8 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import React, { useState } from 'react'
-import { GithubIcon, LinkedInIcon, TwitterIcon ,facebookIcon,  SunIcon, MoonIcon, YoutubeIcon, InstagramIcon} from './Icons'
+import { GithubIcon, LinkedInIcon,   
+   SunIcon, MoonIcon, YoutubeIcon, InstagramIcon, FaceBookIcon} from './Icons'
 import {motion} from 'framer-motion';
 import Logo from './Logo'
 import useThemeSwitcher from './hooks/useThemeSwitcher';
@@ -78,7 +79,7 @@ const NavBar = () => {
          whileTap={{scale:0.9}}
          className='w-6 mx-3'>
 
-            <facebookIcon />
+            <FaceBookIcon />
          </motion.a>
          <motion.a href='https://github.com/UsamaMohamedKhalil' target={"_blank"} className='w-6 mx-3'
          whileHover={{y:-2}}
@@ -139,7 +140,7 @@ const NavBar = () => {
          whileTap={{scale:0.9}}
          className='w-6 mr-3 sm:mx-1'>
 
-            <facebookIcon />
+            <FaceBookIcon />
          </motion.a>
          <motion.a href='https://github.com/UsamaMohamedKhalil' target={"_blank"} 
          className='w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1'
